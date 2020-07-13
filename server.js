@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('./'));
 
 var pusher = new Pusher({
-  app_id = "1036686"
+app_id = "1036686"
 key = "04a315eaab1fda938284"
 secret = "fa97ed5cd1ecc1f815d1"
 cluster = "ap2"
