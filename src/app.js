@@ -45,7 +45,7 @@
   var pusher = new Pusher('04a315eaab1fda938284', {
     cluster: 'ap2',
     encrypted: true
-  });
+  }); 
 
   // add eventlisteners
   saveNameButton.addEventListener('click', saveName);
